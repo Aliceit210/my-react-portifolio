@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+    @apply border border-gray-400 p-3 text-black outline-none rounded-md text-sm;
+  }
+
+  .button{
+    @apply bg-gradient-to-r from-black via-purple-500 to-white py-2 text-white rounded-md hover:opacity-75;
+  }
